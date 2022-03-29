@@ -13,3 +13,5 @@ Création du serveur Express
 const express = require('express')
 const app = express() 
 ```
+## Etape3 :
+Définition des ressources et ses routes
