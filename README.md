@@ -9,6 +9,7 @@ l'installation de la librairie express
 ## Etape2 :
 Création du serveur Express 
 
-```const express = require('express')
-
-const app = express() ```
+```
+const express = require('express')
+const app = express() 
+```
