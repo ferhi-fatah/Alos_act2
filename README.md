@@ -4,4 +4,4 @@ l'activite 2 de module Architecture logicielle orientée service
 ## Etape1 :
 l'installation de la librairie express 
 
-`$ sudo npm install express `
+`$ npm install express `
