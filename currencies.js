@@ -5,7 +5,7 @@ const currencies = require('./currencies.json')
 
 app.get("/", (req, res) => {
   res.json({ status: "success", message: "Welcome To cryptom Testing API" });
-  });
+});
 // ajouter un middleware :
 app.use(express.json())
 
@@ -22,10 +22,16 @@ app.get('/currencies/:rank', (req, res) => {
 
 const { body, validationResult } = require('express-validator');
 
-app.post('/currencies',
+
+app.post(
+  '/currencies',
+
+  // symbol must be at least 2 chars long and max 4
   body('symbol').isLength({ max: 4 }),
   body('symbol').isLength({ min: 2 }),
   (req, res) => {
+    // Finds the validation errors in this request and wraps them in an object with handy functions
+
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
       return res.status(400).json({ errors: errors.array() });
@@ -67,3 +73,4 @@ app.listen(3000, () => {
 })
 
 module.exports = app;
+
