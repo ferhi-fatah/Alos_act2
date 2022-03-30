@@ -3,7 +3,9 @@ const app = express()
 
 const currencies = require('./currencies.json')
 
-
+app.get("/", (req, res) => {
+  res.json({ status: "success", message: "Welcome To cryptom Testing API" });
+  });
 // ajouter un middleware :
 app.use(express.json())
 
@@ -27,7 +29,7 @@ app.post('/currencies',
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
       return res.status(400).json({ errors: errors.array() });
-    }
+    };
     currencies.push(req.body)
     res.status(200).json(currencies)
   })
@@ -60,6 +62,8 @@ app.delete('/currencies/:rank', (req, res) => {
 
 
 
-app.listen(8080, () => {
+app.listen(3000, () => {
   console.log("Serveur à l'écoute")
 })
+
+module.exports = app;
