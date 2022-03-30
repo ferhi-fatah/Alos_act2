@@ -1,6 +1,4 @@
-
-{
-    "currencies": [
+[
         
         {
             "id": "bitcoin",
@@ -122,7 +120,7 @@
         {
             "id": "iota",
             "rank": "10",
-            "symbol": "IOTA",
+            "symbol": "MIOTA",
             "name": "IOTA",
             "supply": "2779530283.0000000000000000",
             "maxSupply": "2779530283.0000000000000000",
@@ -131,7 +129,136 @@
             "priceUsd": "0.8647409095440071",
             "changePercent24Hr": "-5.2486878154413840",
             "vwap24Hr": "0.8988184197561133"
+        },
+        {
+            "id": "tron",
+            "rank": "11",
+            "symbol": "TRX",
+            "name": "TRON",
+            "supply": "65748111645.0000000000000000",
+            "maxSupply": null,
+            "marketCapUsd": "1917190870.7283154920500970",
+            "volumeUsd24Hr": "97380139.3492488689277134",
+            "priceUsd": "0.0291596339843186",
+            "changePercent24Hr": "-1.4317319488825126",
+            "vwap24Hr": "0.0298449568758824"
+        },
+        {
+            "id": "ethereum-classic",
+            "rank": "12",
+            "symbol": "ETC",
+            "name": "Ethereum Classic",
+            "supply": "103587261.0000000000000000",
+            "maxSupply": null,
+            "marketCapUsd": "1872331046.2321777062805653",
+            "volumeUsd24Hr": "271312448.7837505736339966",
+            "priceUsd": "18.0749160481439673",
+            "changePercent24Hr": "7.9255849247329682",
+            "vwap24Hr": "17.7522606149076111"
+        },
+        {
+            "id": "monero",
+            "rank": "13",
+            "symbol": "XMR",
+            "name": "Monero",
+            "supply": "16266706.0000000000000000",
+            "maxSupply": null,
+            "marketCapUsd": "1859277791.0153721203827764",
+            "volumeUsd24Hr": "18264886.3953255107108103",
+            "priceUsd": "114.2995878216137994",
+            "changePercent24Hr": "-1.6999607633523112",
+            "vwap24Hr": "116.6537590537407372"
+        },
+        {
+            "id": "neo",
+            "rank": "14",
+            "symbol": "NEO",
+            "name": "NEO",
+            "supply": "65000000.0000000000000000",
+            "maxSupply": "100000000.0000000000000000",
+            "marketCapUsd": "1715338547.8519569500000000",
+            "volumeUsd24Hr": "45167493.9521492713845788",
+            "priceUsd": "26.3898238131070300",
+            "changePercent24Hr": "-3.8257893431296119",
+            "vwap24Hr": "27.3569824306887655"
+        },
+        {
+            "id": "dash",
+            "rank": "15",
+            "symbol": "DASH",
+            "name": "Dash",
+            "supply": "8242673.0000000000000000",
+            "maxSupply": "18900000.0000000000000000",
+            "marketCapUsd": "1670555643.8854250757627516",
+            "volumeUsd24Hr": "181128160.3807899897235348",
+            "priceUsd": "202.6715901365279292",
+            "changePercent24Hr": "-1.2160970272440424",
+            "vwap24Hr": "210.5909154125158495"
+        },
+        {
+            "id": "binance-coin",
+            "rank": "16",
+            "symbol": "BNB",
+            "name": "Binance Coin",
+            "supply": "95512523.0000000000000000",
+            "maxSupply": null,
+            "marketCapUsd": "1305935869.8397628547476407",
+            "volumeUsd24Hr": "42172812.7116138931680502",
+            "priceUsd": "13.6729282069091909",
+            "changePercent24Hr": "1.3520513306937922",
+            "vwap24Hr": "13.6841366919151358"
+        },
+        {
+            "id": "nem",
+            "rank": "17",
+            "symbol": "XEM",
+            "name": "NEM",
+            "supply": "8999999999.0000000000000000",
+            "maxSupply": null,
+            "marketCapUsd": "1269169652.9010324496619943",
+            "volumeUsd24Hr": "4899881.5009537457724066",
+            "priceUsd": "0.1410188503380057",
+            "changePercent24Hr": "-2.4429786112286243",
+            "vwap24Hr": "0.1440137611821482"
+        },
+        {
+            "id": "tezos",
+            "rank": "18",
+            "symbol": "XTZ",
+            "name": "Tezos",
+            "supply": "607489041.0000000000000000",
+            "maxSupply": null,
+            "marketCapUsd": "1119073134.2173565940268839",
+            "volumeUsd24Hr": "2154328.9429299077638154",
+            "priceUsd": "1.8421289252810679",
+            "changePercent24Hr": "-0.6730653085172552",
+            "vwap24Hr": "1.8783587451745926"
+        },
+        {
+            "id": "zcash",
+            "rank": "19",
+            "symbol": "ZEC",
+            "name": "Zcash",
+            "supply": "4517456.0000000000000000",
+            "maxSupply": null,
+            "marketCapUsd": "804991269.4445417488659264",
+            "volumeUsd24Hr": "75632617.7903448306763952",
+            "priceUsd": "178.1957078153150244",
+            "changePercent24Hr": "0.6169476309658727",
+            "vwap24Hr": "184.8225603649674135"
+        },
+        {
+            "id": "omisego",
+            "rank": "20",
+            "symbol": "OMG",
+            "name": "OmiseGO",
+            "supply": "140245398.0000000000000000",
+            "maxSupply": null,
+            "marketCapUsd": "739777497.6916407099359196",
+            "volumeUsd24Hr": "20694921.2361962200435087",
+            "priceUsd": "5.2748789496225802",
+            "changePercent24Hr": "-2.2531646774084197",
+            "vwap24Hr": "5.3958775584852030"
         }
     
-    ]
-}
+]
