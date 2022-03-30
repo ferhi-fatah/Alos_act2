@@ -2,7 +2,7 @@
         
         {
             "id": "bitcoin",
-            "rank": "1",
+            "rank": 1,
             "symbol": "BTC",
             "name": "Bitcoin",
             "supply": "17193925.0000000000000000",
@@ -15,7 +15,7 @@
         },
         {
             "id": "ethereum",
-            "rank": "2",
+            "rank": 2,
             "symbol": "ETH",
             "name": "Ethereum",
             "supply": "101160540.0000000000000000",
@@ -28,7 +28,7 @@
         },
         {
             "id": "ripple",
-            "rank": "3",
+            "rank": 3,
             "symbol": "XRP",
             "name": "XRP",
             "supply": "39299874590.0000000000000000",
@@ -41,7 +41,7 @@
         },
         {
             "id": "bitcoin-cash",
-            "rank": "4",
+            "rank": 4,
             "symbol": "BCH",
             "name": "Bitcoin Cash",
             "supply": "17278438.0000000000000000",
@@ -54,7 +54,7 @@
         },
         {
             "id": "eos",
-            "rank": "5",
+            "rank": 5,
             "symbol": "EOS",
             "name": "EOS",
             "supply": "906245118.0000000000000000",
@@ -67,7 +67,7 @@
         },
         {
             "id": "stellar",
-            "rank": "6",
+            "rank": 6,
             "symbol": "XLM",
             "name": "Stellar",
             "supply": "18770261348.0000000000000000",
@@ -80,7 +80,7 @@
         },
         {
             "id": "litecoin",
-            "rank": "7",
+            "rank": 7,
             "symbol": "LTC",
             "name": "Litecoin",
             "supply": "57731482.0000000000000000",
@@ -93,7 +93,7 @@
         },
         {
             "id": "cardano",
-            "rank": "8",
+            "rank": 8,
             "symbol": "ADA",
             "name": "Cardano",
             "supply": "25927070538.0000000000000000",
@@ -106,7 +106,7 @@
         },
         {
             "id": "tether",
-            "rank": "9",
+            "rank": 9,
             "symbol": "USDT",
             "name": "Tether",
             "supply": "2437140346.0000000000000000",
@@ -119,7 +119,7 @@
         },
         {
             "id": "iota",
-            "rank": "10",
+            "rank": 10,
             "symbol": "MIOTA",
             "name": "IOTA",
             "supply": "2779530283.0000000000000000",
@@ -132,7 +132,7 @@
         },
         {
             "id": "tron",
-            "rank": "11",
+            "rank": 11,
             "symbol": "TRX",
             "name": "TRON",
             "supply": "65748111645.0000000000000000",
@@ -145,7 +145,7 @@
         },
         {
             "id": "ethereum-classic",
-            "rank": "12",
+            "rank": 12,
             "symbol": "ETC",
             "name": "Ethereum Classic",
             "supply": "103587261.0000000000000000",
@@ -158,7 +158,7 @@
         },
         {
             "id": "monero",
-            "rank": "13",
+            "rank": 13,
             "symbol": "XMR",
             "name": "Monero",
             "supply": "16266706.0000000000000000",
@@ -171,7 +171,7 @@
         },
         {
             "id": "neo",
-            "rank": "14",
+            "rank": 14,
             "symbol": "NEO",
             "name": "NEO",
             "supply": "65000000.0000000000000000",
@@ -184,7 +184,7 @@
         },
         {
             "id": "dash",
-            "rank": "15",
+            "rank": 15,
             "symbol": "DASH",
             "name": "Dash",
             "supply": "8242673.0000000000000000",
@@ -197,7 +197,7 @@
         },
         {
             "id": "binance-coin",
-            "rank": "16",
+            "rank": 16,
             "symbol": "BNB",
             "name": "Binance Coin",
             "supply": "95512523.0000000000000000",
@@ -210,7 +210,7 @@
         },
         {
             "id": "nem",
-            "rank": "17",
+            "rank": 17,
             "symbol": "XEM",
             "name": "NEM",
             "supply": "8999999999.0000000000000000",
@@ -223,7 +223,7 @@
         },
         {
             "id": "tezos",
-            "rank": "18",
+            "rank": 18,
             "symbol": "XTZ",
             "name": "Tezos",
             "supply": "607489041.0000000000000000",
@@ -236,7 +236,7 @@
         },
         {
             "id": "zcash",
-            "rank": "19",
+            "rank": 19,
             "symbol": "ZEC",
             "name": "Zcash",
             "supply": "4517456.0000000000000000",
@@ -249,7 +249,7 @@
         },
         {
             "id": "omisego",
-            "rank": "20",
+            "rank": 20,
             "symbol": "OMG",
             "name": "OmiseGO",
             "supply": "140245398.0000000000000000",
