@@ -5,15 +5,18 @@ const currencies = require('./currencies.json')
 // ajouter un middleware :
 app.use(express.json())
 
-app.get('/currencies', (req, res) => {
-    res.status(200).json(currencies)
+
+
+app.get('/currencies', (req,res) => {
+    res.status(200).json(parkings)
 })
 
-app.get('/currencies/:rank', (req, res) => {
+app.get('/currencies/:rank', (req,res) => {
     const rank = parseInt(req.params.rank)
-    const currencie = currencies.find(parking => currencie.rank === rank)
+    const currencie = currencies.find(currencie => currencie.rank === rank)
     res.status(200).json(currencie)
 })
+
 
 
 const { body, validationResult } = require('express-validator');
