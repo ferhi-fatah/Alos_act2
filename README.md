@@ -14,7 +14,7 @@ const express = require('express')
 const app = express() 
 ```
 ## Etape3 :
-Définition des ressources et ses routes :
+Définition des routes :
 Pour tester nos routes , nous avons utiliser l'outil Postman .
 - l'accueille de l'API (get):
   
