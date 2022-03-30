@@ -35,6 +35,9 @@ Pour tester nos routes , nous avons utiliser l'outil Postman .
 - la modification de currencie (put) :
   
   ![image](https://user-images.githubusercontent.com/101930870/160937263-cf504caa-af68-42cc-9baf-babab2c688d6.png)
+  
+  ![1](https://user-images.githubusercontent.com/101930870/160937756-da463964-9998-4f40-9b16-f0b33b868345.PNG)
+
 
 - la suppression de currencie (delet) :
    
