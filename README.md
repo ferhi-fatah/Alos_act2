@@ -70,5 +70,4 @@ le code est implemente au fichie currencies.test.js
 
 `$ npm test `
 
-![image](https://user-images.githubusercontent.com/101930870/160935126-f8bc82ee-2b0a-4229-9877-a8289bd7750a.png)
-
+![image](https://user-images.githubusercontent.com/101930870/160941183-c72b5e11-09df-4c58-9eb0-546d0eafe208.png)
