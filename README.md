@@ -15,3 +15,8 @@ const app = express()
 ```
 ## Etape3 :
 Définition des ressources et ses routes
+
+## Etape4 
+Utilisation des middlwares validation des données ( express-validator )
+
+`$ npm install --save express-validator `
