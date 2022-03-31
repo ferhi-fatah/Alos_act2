@@ -26,9 +26,20 @@ const { body, validationResult } = require('express-validator');
 app.post(
   '/currencies',
 
-  // symbol must be at least 2 chars long and max 4
-  body('symbol').isLength({ max: 4 }),
-  body('symbol').isLength({ min: 2 }),
+    // symbol must be at least 2 chars long and max 4
+    body('symbol').isLength({ max: 4 }),
+    body('symbol').isLength({ min: 2 }),
+  
+    // name and sympbol must be alphabetic 
+    body('symbol').isAlpha(),  
+    body('name').isAlpha(),
+    body('supply').isDecimal(),
+  
+    // maxSupply ,marketCapUsd , priceUsd ,vwap24Hr must be +
+    body('maxSupply').isInt({ min:0}),
+    body('marketCapUsd').isInt({ min:0}),
+    body('priceUsd').isInt({ min:0}),
+    body('vwap24Hr').isInt({ min:0}),
   (req, res) => {
     // Finds the validation errors in this request and wraps them in an object with handy functions
 
