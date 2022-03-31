@@ -2,7 +2,7 @@
 l'activite 2 de module Architecture logicielle orientée service 
 
 ## Etape1 :
-l'installation de la librairie express 
+l'installation de la librairie [express](https://expressjs.com/)
 
 `$ npm install express `
 
@@ -42,7 +42,7 @@ Pour tester nos routes , nous avons utiliser l'outil [Postman](https://www.postm
   
 
 ## Etape4 :
-Utilisation des middlwares validation des données ( express-validator ) pour valide les données a l'ajout 
+Utilisation des middlwares validation des données ( [express-validator](https://express-validator.github.io/docs/) ) pour valide les données a l'ajout 
 
 `$ npm install --save express-validator `
 
