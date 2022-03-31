@@ -15,7 +15,7 @@ const app = express()
 ```
 ## Etape3 :
 Définition des routes :
-Pour tester nos routes , nous avons utiliser l'outil Postman .
+Pour tester nos routes , nous avons utiliser l'outil [Postman](https://www.postman.com/)  .
 - l'accueille de l'API (get):
   
   ![image](https://user-images.githubusercontent.com/101930870/160936245-81d34291-1a2b-44b5-be20-f895afd54772.png)
