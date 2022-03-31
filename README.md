@@ -66,7 +66,7 @@ $ npm i mocha chai chai-http --save-dev
 }
 ```
 #### l'execution de code  :
-le code est implemente au fichie currencies.test.js
+le code est implemente au fichie [currencies.test.js](https://github.com/ferhi-fatah/Alos_act2/blob/main/test/currencies.test.js)
 
 `$ npm test `
 
