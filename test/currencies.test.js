@@ -69,16 +69,16 @@ describe("Server!", () => {
             .request(app)
             .put('/currencies/1')
             .send({
-                "id": "bitshares",
-                "symbol": "BTS",
-                "name": "BitShares",
-                "supply": "2648020000.0000000000000000",
-                "maxSupply": "3600570502.0000000000000000",
-                "marketCapUsd": "417946480.6234385711480000",
-                "volumeUsd24Hr": "3707830.5197623489175103",
-                "priceUsd": "0.1578335815527974",
-                "changePercent24Hr": "-0.5262835077445962",
-                "vwap24Hr": "0.1597890049426776"
+                "id": "bitcoin",
+                "symbol": "BTC",
+                "name": "Bitcoinnnn",
+                "supply": "25233111.0000000000000000",
+                "maxSupply": "65900000.0000000000000000",
+                "marketCapUsd": "119150835874.4699281625807300",
+                "volumeUsd24Hr": "2927959461.1750323310959460",
+                "priceUsd": "6929.8217756835584756",
+                "changePercent24Hr": "1.1301417214350335",
+                "vwap24Hr": "7175.0663247679233209"
             })
             .end((err, res) => {
                 expect(res).to.have.status(200);
