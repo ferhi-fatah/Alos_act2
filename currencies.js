@@ -38,22 +38,24 @@ const { body, validationResult } = require('express-validator');
 app.post(
   '/currencies',
 
-  // symbol must be at least 2 chars long and max 4
+  // symbol must be at least 2 chars long and max 4 :
   body('symbol').isLength({ max: 4 }),
   body('symbol').isLength({ min: 2 }),
-  // name and sympbol must be alphabetic 
+  // id , name and sympbol must be alphabetic :
+  body('id').isAlpha(),
   body('symbol').isAlpha(),
   body('name').isAlpha(),
-  body('supply').isDecimal(),
-  // maxSupply ,marketCapUsd , priceUsd ,vwap24Hr must be +
-  //body('maxSupply').isInt({ min:0}),
-  body('marketCapUsd').isInt({ min: 0 }),
-  body('priceUsd').isInt({ min: 0 }),
-  body('vwap24Hr').isInt({ min: 0 }),
+  // maxSupply ,marketCapUsd , priceUsd ,vwap24Hr must be + :
+  body('supply').isDecimal({ min: 0 }),
+  body('marketCapUsd').isDecimal({ min: 0 }),
+  body('priceUsd').isDecimal({ min: 0 }),
+  body('vwap24Hr').isDecimal({ min: 0 }),
+  // changePercent24Hr :
+  body('changePercent24Hr').isDecimal(),
 
 
   (req, res) => {
-    // Finds the validation errors in this request and wraps them in an object with handy functions
+    // Finds the validation errors in this request and wraps them in an object with handy functions :
 
     const errors = validationResult(req);
     if (!errors.isEmpty()) {
@@ -69,7 +71,7 @@ app.post(
 app.put('/currencies/:rank', (req, res) => {
   const rank = parseInt(req.params.rank)
   let currencie = currencies.find(currencie => currencie.rank === rank)
-  currencie.id = req.body.id,
+    currencie.id = req.body.id,
     currencie.symbol = req.body.symbol,
     currencie.name = req.body.name,
     currencie.supply = req.body.supply,
