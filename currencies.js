@@ -1,18 +1,27 @@
 const express = require('express')
 const app = express()
-
 const currencies = require('./currencies.json')
+
+
+// *********** the cryptom api ***********
 
 app.get("/", (req, res) => {
   res.json({ status: "success", message: "Welcome To cryptom Testing API" });
 });
+
+
 // ajouter un middleware :
 app.use(express.json())
 
 
+// *********** the currencies list ***********
+
 app.get('/currencies', (req, res) => {
   res.status(200).json(currencies)
 })
+
+
+// *********** the currencies by the rank ***********
 
 app.get('/currencies/:rank', (req, res) => {
   const rank = parseInt(req.params.rank)
@@ -20,26 +29,29 @@ app.get('/currencies/:rank', (req, res) => {
   res.status(200).json(currencie)
 })
 
+
+// *********** l'ajout de currencies ***********
+
 const { body, validationResult } = require('express-validator');
 
 
 app.post(
   '/currencies',
 
-    // symbol must be at least 2 chars long and max 4
-    body('symbol').isLength({ max: 4 }),
-    body('symbol').isLength({ min: 2 }),
-  
-    // name and sympbol must be alphabetic 
-    body('symbol').isAlpha(),  
-    body('name').isAlpha(),
-    body('supply').isDecimal(),
-  
-    // maxSupply ,marketCapUsd , priceUsd ,vwap24Hr must be +
-    body('maxSupply').isInt({ min:0}),
-    body('marketCapUsd').isInt({ min:0}),
-    body('priceUsd').isInt({ min:0}),
-    body('vwap24Hr').isInt({ min:0}),
+  // symbol must be at least 2 chars long and max 4
+  body('symbol').isLength({ max: 4 }),
+  body('symbol').isLength({ min: 2 }),
+  // name and sympbol must be alphabetic 
+  body('symbol').isAlpha(),
+  body('name').isAlpha(),
+  body('supply').isDecimal(),
+  // maxSupply ,marketCapUsd , priceUsd ,vwap24Hr must be +
+  //body('maxSupply').isInt({ min:0}),
+  body('marketCapUsd').isInt({ min: 0 }),
+  body('priceUsd').isInt({ min: 0 }),
+  body('vwap24Hr').isInt({ min: 0 }),
+
+
   (req, res) => {
     // Finds the validation errors in this request and wraps them in an object with handy functions
 
@@ -52,6 +64,8 @@ app.post(
   })
 
 
+// *********** la modification d'un currencies ***********
+  
 app.put('/currencies/:rank', (req, res) => {
   const rank = parseInt(req.params.rank)
   let currencie = currencies.find(currencie => currencie.rank === rank)
@@ -70,6 +84,9 @@ app.put('/currencies/:rank', (req, res) => {
     res.status(200).json(currencie)
 })
 
+
+// *********** la suppression d'un currencies ***********
+
 app.delete('/currencies/:rank', (req, res) => {
   const rank = parseInt(req.params.rank)
   let currencie = currencies.find(currencie => currencie.rank === rank)
@@ -84,4 +101,6 @@ app.listen(3000, () => {
 })
 
 module.exports = app;
+
+
 
