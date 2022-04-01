@@ -1,4 +1,4 @@
-const app = require("../try");
+const app = require("../currencies");
 const chai = require("chai");
 const chaiHttp = require("chai-http");
 
