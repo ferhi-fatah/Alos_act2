@@ -14,6 +14,7 @@ Création du serveur Express .
 const express = require('express')
 const app = express() 
 ```
+
 ## Etape3 :
 Définition des routes :
 Pour tester nos routes , nous avons utiliser l'outil [Postman](https://www.postman.com/)  .
@@ -44,9 +45,8 @@ Pour tester nos routes , nous avons utiliser l'outil [Postman](https://www.postm
 - l'errorhandler ( la gestion des fausses routes ) :
 
   ![image](https://user-images.githubusercontent.com/62666792/161395748-b0cc0d22-a5c0-4b75-9aea-d2477b0c7647.png)
-  ![image](https://user-images.githubusercontent.com/62666792/161395716-44bb49cc-a718-448a-a725-10a986128dcc.png)
+  ![image](https://user-images.githubusercontent.com/62666792/161395968-c53e5059-6229-41c0-bf70-7fa7467597c8.png)
 
-  
 
 ## Etape4 :
 Utilisation des middlwares validation des données ( [express-validator](https://express-validator.github.io/docs/) ) pour valide les données a l'ajout .
