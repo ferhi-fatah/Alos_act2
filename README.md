@@ -43,8 +43,8 @@ Pour tester nos routes , nous avons utiliser l'outil [Postman](https://www.postm
   
 - l'errorhandler ( la gestion des fausses routes ) :
 
- ![image](https://user-images.githubusercontent.com/62666792/161395716-44bb49cc-a718-448a-a725-10a986128dcc.png)
  ![image](https://user-images.githubusercontent.com/62666792/161395748-b0cc0d22-a5c0-4b75-9aea-d2477b0c7647.png)
+ ![image](https://user-images.githubusercontent.com/62666792/161395716-44bb49cc-a718-448a-a725-10a986128dcc.png)
 
   
 
