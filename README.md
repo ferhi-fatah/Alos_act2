@@ -53,7 +53,7 @@ Utilisation des middlwares validation des données ( [express-validator](https:/
 
 `$ npm install --save express-validator `
 
-  ![image](https://user-images.githubusercontent.com/101930870/160938020-6343efd8-3f91-4849-8a66-e7fc511998fb.png)
+    ![image](https://user-images.githubusercontent.com/101930870/160938020-6343efd8-3f91-4849-8a66-e7fc511998fb.png)
 
 
 ## Etape5 :
