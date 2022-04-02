@@ -104,6 +104,12 @@ app.all('*', (req, res, next) => {
     message: `Can't find ${req.originalUrl} on this server!`
    
   });
+  
+  const err = new Error(`Can't find ${req.originalUrl} on this server!`);
+  err.status = 'fail';
+  err.statusCode = 404;
+  
+  next(err);
 });
 
 app.listen(3000, () => {
