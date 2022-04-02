@@ -1,6 +1,5 @@
 # Alos_act2
 l'activite 2 de module Architecture logicielle orientée service 
-
 Thème  : Cryptome , API de crypto-monnaie .
 
 ## Etape1 :
