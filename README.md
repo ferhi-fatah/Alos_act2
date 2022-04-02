@@ -1,13 +1,14 @@
 # Alos_act2
 l'activite 2 de module Architecture logicielle orientée service 
+Thème  : Cryptome , API de crypto-monnaie .
 
 ## Etape1 :
-l'installation de la librairie [express](https://expressjs.com/)
+l'installation de la librairie [express](https://expressjs.com/).
 
 `$ npm install express `
 
 ## Etape2 :
-Création du serveur Express 
+Création du serveur Express .
 
 ```
 const express = require('express')
@@ -40,9 +41,15 @@ Pour tester nos routes , nous avons utiliser l'outil [Postman](https://www.postm
    
   ![image](https://user-images.githubusercontent.com/101930870/160937415-cefbcea8-741d-4fff-8e71-67db2e6d005f.png)
   
+- l'errorhandler ( la gestion des fausses routes ) :
+
+ ![image](https://user-images.githubusercontent.com/62666792/161395716-44bb49cc-a718-448a-a725-10a986128dcc.png)
+ ![image](https://user-images.githubusercontent.com/62666792/161395748-b0cc0d22-a5c0-4b75-9aea-d2477b0c7647.png)
+
+  
 
 ## Etape4 :
-Utilisation des middlwares validation des données ( [express-validator](https://express-validator.github.io/docs/) ) pour valide les données a l'ajout 
+Utilisation des middlwares validation des données ( [express-validator](https://express-validator.github.io/docs/) ) pour valide les données a l'ajout .
 
 `$ npm install --save express-validator `
 
@@ -50,7 +57,7 @@ Utilisation des middlwares validation des données ( [express-validator](https:/
 
 
 ## Etape5 :
-le test des API avec [mocha](https://mochajs.org/) (Test-Driven Development)
+le test des API avec [mocha](https://mochajs.org/) (Test-Driven Development).
 
 #### l'installation :
 
@@ -66,7 +73,7 @@ $ npm i mocha chai chai-http --save-dev
 }
 ```
 #### l'execution de code  :
-le code est implemente au fichie [currencies.test.js](https://github.com/ferhi-fatah/Alos_act2/blob/main/test/currencies.test.js)
+le code est implemente au fichie [currencies.test.js](https://github.com/ferhi-fatah/Alos_act2/blob/main/test/currencies.test.js).
 
 `$ npm test `
 
